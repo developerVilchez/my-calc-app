@@ -6,7 +6,6 @@ const scaleNames = {
 }
 
 const TemperatureInput = (props) => {
- 
  const handleInput = (e) => {
    console.log(e.target.value)
    props.onInputTemperature(e.target.value)
